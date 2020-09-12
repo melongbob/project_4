@@ -28,7 +28,7 @@ fig = px.bar(df, x="Fruit", y="Amount", color="City", barmode="group")
 # App Layout
 ###############
 app.layout = html.Div(
-    children=[
+    [
         user_tracking_section,
         graph_section(fig),
     ],
